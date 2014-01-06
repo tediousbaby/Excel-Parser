@@ -1,0 +1,8 @@
+<div>
+   <ul>
+        <li><span>酒店名称:</span><span>{{A}}</span></li>
+        <li><span>价格:</span><span>{{B}}</span></li>
+        <li><span>简介:</span><span>{{C}}</span></li>
+        <li><span>地址URL:</span><span>{{D}}</span></li>
+   </ul>
+</div>

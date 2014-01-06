@@ -1,0 +1,13 @@
+{
+    "name": "excel-parser",
+    "version": "0.0.1",
+    "description": "解析Excel的模板自动匹配工具",
+
+    "dependencies": {
+        "log4js": "0.6.9",
+        "formidable": "1.0.14",
+        "excel-parser": "0.2.1",
+        "async": "0.2.9",
+        "hogan.js": "2.0.0"
+    }
+}

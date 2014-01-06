@@ -1,0 +1,33 @@
+.main {width: 880px; margin: 10px auto; font:normal 12px/22px tahoma, arial, sans-serif;}
+.main textarea {font:normal 12px/22px tahoma, arial, sans-serif; line-height: 14px;}
+
+.main .head { margin: 20px auto; font-weight: bold; font-size: 25px; text-align: center; }
+
+.main .upload_form{ border: #ff8a18 1px dotted;}
+.main .upload_form form{ margin: 5px;}
+.main .upload_form dl{ margin: 5px 0;}
+.main .upload_form dt{ width: 110px; float:left; text-align: right; position: relative;}
+.main .upload_form dd{ margin-left: 110px; position: relative;}
+.main .upload_form .template{ width:600px;height: 90px; resize:none;}
+.main .upload_form .fbutton { position: absolute; left:515px;}
+
+/*错误消息*/
+.main .upload_form .region{ margin-left: 15px;  }
+
+.main .result{ margin: 20px 0; border: #00F 1px dotted; display: none;}
+.main .result .title { margin: 3px 0 3px 5px; font-weight: bold;}
+.main .result .title .card{ float: right;}
+.main .result ul {padding-left:0px; margin-top: 5px;}
+.main .result li {display: inline-block; margin: 0 2px; position: relative;}
+.main .result li .copy{position: absolute; left:390px;}
+.main .result .result_item{ width:429px; border:1px solid #1af294; height:130px; overflow:visible; resize: none;}
+
+.main .result .total {position: relative;}
+.main .result .content{ border:1px solid #1af294; margin: 1px 1px; width: 870px; height: 800px; max-height: 800px; resize: none;}
+.main .result .totalcopy{position: absolute; left:830px;}
+
+.main .footer{ border-top: #ccc 1px dotted; margin-top: 15px; }
+.main .footer ul{ list-style: none;}
+.main .footer li{ text-align: center;}
+
+.red { color: red;}
