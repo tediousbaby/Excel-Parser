@@ -6,6 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
+process.setMaxListeners(0);
+
 var server = require("./Server");
 var router = require("./Router");
 var requestHandler = require("./RequestHandler");
