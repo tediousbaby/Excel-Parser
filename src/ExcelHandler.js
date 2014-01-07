@@ -8,9 +8,7 @@
 
 var fs = require("fs");
 var url = require("url");
-var util = require("util");
 var excelParser = require('excel-parser');
-var async = require("async");
 var logger = require("log4js").getLogger("ExcelHandler");
 
 /**
@@ -51,13 +49,6 @@ function parseExcel(request, response, filePath, number){
         response.write(callbackName + "(" + JSON.stringify(result) + ")", "UTF-8");
         response.end();
     });
-}
-
-/**
- *
- */
-function handleHoganTemplate(){
-
 }
 
 exports.parseExcel = parseExcel;
