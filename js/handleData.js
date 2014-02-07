@@ -19,7 +19,7 @@ window.handleData = function(data, resultContainerJQ){
     if(data && data.length > 0){
         var alphabetArray = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-        var rowDataTemplate = Hogan.compile('<li class="js-item"><div class="copy"><button>复制</button></div><textarea class="result_item" cols="20" rows="20">{{ROW}}</textarea></li>');
+        var rowDataTemplate = Hogan.compile('<li class="js-item"><div class="copy"><span>行号：{{IDX}}</span>&nbsp;&nbsp;<button>复制</button></div><textarea class="result_item" cols="20" rows="20">{{ROW}}</textarea></li>');
         var resultULJQ = $("#js-result-ul");
         var resultTextareaJQ = $("#js-result-div textarea");
 
@@ -33,7 +33,8 @@ window.handleData = function(data, resultContainerJQ){
             });
 
             resultHtml.push(rowDataTemplate.render({
-                "ROW": template.render(renderData)
+                "ROW": template.render(renderData),
+                "IDX": idx + 1
             }));
 
             resultContentHtml.push(template.render(renderData));

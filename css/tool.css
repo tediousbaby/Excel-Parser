@@ -8,7 +8,7 @@
 .main .upload_form dl{ margin: 5px 0;}
 .main .upload_form dt{ width: 110px; float:left; text-align: right; position: relative;}
 .main .upload_form dd{ margin-left: 110px; position: relative;}
-.main .upload_form .template{ width:600px;height: 90px; resize:none;}
+.main .upload_form .template{ width:600px;height: 130px; resize:none;}
 .main .upload_form .fbutton { position: absolute; left:515px;}
 
 /*错误消息*/
@@ -19,8 +19,8 @@
 .main .result .title .card{ float: right;}
 .main .result ul {padding-left:0px; margin-top: 5px;}
 .main .result li {display: inline-block; margin: 0 2px; position: relative;}
-.main .result li .copy{position: absolute; left:390px;}
-.main .result .result_item{ width:429px; border:1px solid #1af294; height:130px; overflow:visible; resize: none;}
+.main .result li .copy{position: absolute; left:338px;}
+.main .result .result_item{ width:429px; border:1px solid #1af294; height:145px; overflow:visible; resize: none;}
 
 .main .result .total {position: relative;}
 .main .result .content{ border:1px solid #1af294; margin: 1px 1px; width: 870px; height: 800px; max-height: 800px; resize: none;}
